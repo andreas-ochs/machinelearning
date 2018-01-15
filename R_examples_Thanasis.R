@@ -14,7 +14,7 @@ rm(list=ls()) # remove all variables from workspace, *** remember to clear scree
 install.packages("matrixStats") # reminder for how to download a package from the command line; you can also do it by doing "Packages -> Install" in the bottom right hand-side window
 
 # A fairly generic list of packages to download and install is the following:
-install.packages(packageList, dependencies=TRUE)
+#install.packages(packageList, dependencies=TRUE)
  
 
 # library(XYZ) #reminder holder to load a specific library XYZ for your program if you're using some commands from those libraries
@@ -23,7 +23,20 @@ install.packages(packageList, dependencies=TRUE)
 #  *** Create a vector x with 1000 samples, mean = 0 and standard deviation = 1., and compute statistical properties ***
 # in practice you would have some data to work on, but just to get you started let's go on with artificial data
 x <-rnorm(1000,0,1) # the function 'rnorm' will generate samples from a Gaussian (normal) distribution
+#N(0,1)
 
+summary(x)
+
+plot(density(x))
+
+#increase sample size
+x.larger <- rnorm(10000,0,1)
+summary(x.larger)
+plot(density(x.larger))
+
+x.larger2 <- rnorm(1000000,0,1)
+summary(x.larger2)
+plot(density(x.larger2))
 # start the exploration
 View(x) # put the vector on the left hand-side panel to visualize its contents
 plot(x) # visualize the data in a graph
