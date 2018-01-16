@@ -19,6 +19,10 @@ install.packages("matrixStats") # reminder for how to download a package from th
 
 # library(XYZ) #reminder holder to load a specific library XYZ for your program if you're using some commands from those libraries
 
+                #########
+                # DAY 1 #
+                #########
+
 #=====================================================================================================================
 #  *** Create a vector x with 1000 samples, mean = 0 and standard deviation = 1., and compute statistical properties ***
 # in practice you would have some data to work on, but just to get you started let's go on with artificial data
@@ -37,6 +41,7 @@ plot(density(x.larger))
 x.larger2 <- rnorm(1000000,0,1)
 summary(x.larger2)
 plot(density(x.larger2))
+
 # start the exploration
 View(x) # put the vector on the left hand-side panel to visualize its contents
 plot(x) # visualize the data in a graph
@@ -94,6 +99,11 @@ myData <- data.frame(std.normal=rnorm(1000, m=0, sd=1),
             exponent=rexp(1000, rate=1),
             uniform=runif(1000, min=-3, max=3)
           )
+
+
+                #########
+                # DAY 2 #
+                #########
 
 #=====================================================================================================================
 #                           *** Work with a matrix and see how things go *** 
