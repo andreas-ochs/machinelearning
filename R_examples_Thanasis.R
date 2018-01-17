@@ -121,6 +121,11 @@ ncol(X2) # number of columns of the matrix
 
 Xnames <- colnames(X2) # access the column names (these are the variable names in the matrix)
 
+
+                #########
+                # DAY 3 #
+                #########
+
 #=====================================================================================================================
 #                                   NOW GET TO THE MAIN PART OF ANALYSING YOUR DATA!
 #=====================================================================================================================
