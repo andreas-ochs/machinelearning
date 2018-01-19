@@ -192,6 +192,12 @@ lines(d1, col = "red"); lines(d2, col = "blue") # including the actual densities
 # but you have to be careful because often they require that the two vectors have equal length which is not necessarily always the case!
 
 
+
+          #########
+          # DAY 4 #
+          #########
+
+
 #=====================================================================================================================
 #                     *** Feature selection and Feature transformation placeholder *** 
 #                           NOT Covered in the programming part of this course!
