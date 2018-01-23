@@ -202,6 +202,16 @@ lines(d1, col = "red"); lines(d2, col = "blue") # including the actual densities
 #                     *** Feature selection and Feature transformation placeholder *** 
 #                           NOT Covered in the programming part of this course!
 
+
+
+
+            #########
+            # DAY 5 #
+            #########
+
+
+
+
 #=====================================================================================================================
 #                       *** Statistical mapping: Regression and Classification *** 
 
