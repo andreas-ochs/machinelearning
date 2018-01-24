@@ -257,8 +257,6 @@ for(i in 1:100){
   
   fitted_model_iteration <- lsfit(Xtrain, ytrain, yname = Xnames[2]) # Fit an OLS model f(X) = y
   fitted_model_iteration$coefficients # observe the coefficients
-  
-  
 }
 
 
